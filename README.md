@@ -3,13 +3,6 @@
 Python simulation of a **one-qubit cluster classifier** using an **NV center in diamond**.  
 It builds quantum states via Rx/Ry pulses (with physical NV parameters), evaluates **fidelity vs. label states**, optimizes a simple **cost function** with gradient steps, and visualizes results (cost curve + Bloch sphere).
 
-## What this shows (for recruiters)
-
-- Solid **Python** for scientific computing (NumPy, SciPy, Matplotlib).  
-- Modeling with **physical NV parameters** (zero-field splitting, gyromagnetic ratio, detuning).  
-- A small but complete loop: **data generation → quantum ops → cost → gradient update → plots**.  
-- Clear visualization: cost over iterations and **Bloch sphere** scatter.
-
 ## Files
 
 - `nv_cluster_classifier.py` — main script (simulation + plots).  
